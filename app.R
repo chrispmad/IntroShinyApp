@@ -5,6 +5,7 @@ library(shiny)
 library(tidyverse)
 library(sf)
 library(readxl)
+library(sortable)
 
 dat = data.frame(a = runif(100, min = 1, max = 3))
 
